@@ -1,4 +1,5 @@
-@import "partials/base";
-@import "partials/header";
-@import "partials/cover";
-@import "partials/bottom-row";
+// cover
+@import "partials/cover/base";
+@import "partials/cover/header";
+@import "partials/cover/cover";
+@import "partials/cover/bottom-row";
