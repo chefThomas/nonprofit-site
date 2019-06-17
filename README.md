@@ -1,5 +1,5 @@
 # Social Activism
-https://chefthomas.github.io/nonprofit-site/
+https://chefthomas.github.io/social-activism/
 
 Social Activism is a fictional online periodical I created to demonstrate my ability to create a UI that follows responsive/mobile-first principles based on a provided layout.
 
