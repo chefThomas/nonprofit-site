@@ -1,5 +1,7 @@
 # Social Activism
 https://chefthomas.github.io/social-activism/
+
+
 Social Activism is a mock periodical that I decided to undertake in order to achieve two main goals: 
     1) Demonstrate ability in crafting a responsive/mobile-first UI based on an existing product, using semantic HTML. 
     2) Utilize the key features of a CSS pre-processor (Sass), including nesting, modularization, mixins, and variables. 
