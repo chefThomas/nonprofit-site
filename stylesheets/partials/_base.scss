@@ -1,0 +1,15 @@
+@import "../modules/all";
+
+* {
+  box-sizing: border-box;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  color: #000;
+  background-color: #000;
+  width: 98%;
+  text-align: center;
+  margin: 0 auto;
+}
