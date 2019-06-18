@@ -6,5 +6,3 @@ I completed this project to achieve two main goals:
 
 - Demonstrate ability to create a semantic, responsive/mobile-first UI from a static reference.
 - Gain experience in using the key features of a CSS pre-processor (Sass), including nesting, modularization, mixins, and variables.
-
-check
