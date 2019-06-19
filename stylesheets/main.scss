@@ -1,5 +1,9 @@
-// cover
-@import "partials/base";
-@import "partials/cover/header";
-@import "partials/cover/cover";
-@import "partials/cover/bottom-row";
+@import "./partials/base";
+
+@import "./partials/cover/header";
+@import "./partials/cover/cover";
+@import "./partials/cover/bottom-row";
+
+@import "./partials/content/page2/header";
+@import "./partials/content/page2/main-content";
+@import "./partials/content/page2/footer";
