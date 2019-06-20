@@ -1,0 +1,30 @@
+.header {
+  margin-bottom: 1rem;
+  // display: flex;
+  .top-span {
+    font-family: $issue;
+    color: $charcoal-alpha;
+    background-color: #d1d3d4;
+    font-size: 1rem;
+    text-transform: uppercase;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid $charcoal-alpha;
+  }
+
+  .heading {
+    font-family: $issue;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .sub-heading {
+    font-family: $issue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $charcoal-alpha;
+  }
+}

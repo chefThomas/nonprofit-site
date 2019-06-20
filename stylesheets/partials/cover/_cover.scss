@@ -1,21 +1,44 @@
+.cover-body {
+  font-family: $main;
+  color: white;
+  padding-bottom: 50px;
+  padding: 2vw 1vw;
+  text-transform: uppercase;
+  height: 100%;
+}
+
+.cover-main {
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.7), rgba(255, 0, 0, 0.3)),
+    url("../static/teachers-striking.png");
+  @include responsiveBgImage;
+}
+
 .sub-coverstory {
-  background-image: linear-gradient(
-    rgba(63, 224, 208, 0.7),
-    rgba(63, 224, 208, 0.7)
-  );
+  background-color: $turquoise-alpha;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  top: 25vw;
+  height: 8vw;
+  width: 95%;
   font-weight: lighter;
   font-family: "Open Sans", sans-serif;
-  font-size: 5vw;
+  font-size: 4.5vw;
   color: rgba(255, 255, 255, 0.8);
   padding-left: 1em;
   transform: rotate(-7deg);
   margin-top: 20px;
+  transition: font-size 0.3s;
+  -moz-transition: font-size 0.3s; /* Firefox 4 */
+  -webkit-transition: font-size 0.3s; /* Safari and Chrome */
+  -o-transition: font-size 0.3s;
+
   &:hover {
     color: yellow;
-  }
-
-  .nav-arrow {
-    width: 200px;
+    font-size: 3.75vw;
   }
 }
 
@@ -27,7 +50,6 @@
   margin-top: 40px;
   font-family: "Oswald", sans-serif;
   font-weight: bold;
-  /* text-align: center; */
   letter-spacing: 1vw;
   padding-right: 7px;
   text-shadow: 0.5vw 0.5vw pink;

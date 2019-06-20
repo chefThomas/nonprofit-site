@@ -20,3 +20,8 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@mixin responsiveImage($width) {
+  width: $width;
+  height: auto;
+}
