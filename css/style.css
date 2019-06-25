@@ -111,6 +111,10 @@ a {
   .sub-coverstory:hover {
     color: yellow;
     font-size: 3.75vw; }
+  .sub-coverstory .inner-text {
+    position: relative; }
+  .sub-coverstory .inner-text:hover > .fa-hand-point-right {
+    left: 125%; }
 
 .coverstory {
   text-align: right;
@@ -217,7 +221,8 @@ a {
   margin-bottom: 2rem; }
 
 .paragraph {
-  display: inline; }
+  text-align: justify;
+  margin-top: 0; }
 
 .article-sub-section {
   font-weight: bold;

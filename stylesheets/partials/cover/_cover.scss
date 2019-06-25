@@ -40,6 +40,13 @@
     color: yellow;
     font-size: 3.75vw;
   }
+
+  .inner-text {
+    position: relative;
+  }
+  .inner-text:hover > .fa-hand-point-right {
+    left: 125%;
+  }
 }
 
 .coverstory {
