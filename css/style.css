@@ -110,7 +110,18 @@ a {
   -o-transition: font-size 0.3s; }
   .sub-coverstory:hover {
     color: yellow;
-    font-size: 3.75vw; }
+    font-size: 4.25vw; }
+  .sub-coverstory .fa-arrow-right {
+    position: absolute;
+    opacity: 0;
+    top: 24%;
+    right: 8%;
+    transition-property: right, opacity;
+    transition-duration: 0.5s, 0.5s;
+    font-size: 4.5vw; }
+  .sub-coverstory:hover .fa-arrow-right {
+    opacity: 0.8;
+    right: 7%; }
 
 .coverstory {
   text-align: right;
