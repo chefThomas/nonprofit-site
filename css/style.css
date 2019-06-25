@@ -115,13 +115,13 @@ a {
     position: absolute;
     opacity: 0;
     top: 24%;
-    right: 8%;
+    right: 12%;
     transition-property: right, opacity;
     transition-duration: 0.5s, 0.5s;
     font-size: 4.5vw; }
   .sub-coverstory:hover .fa-arrow-right {
     opacity: 0.8;
-    right: 7%; }
+    right: 9%; }
 
 .coverstory {
   text-align: right;
@@ -158,11 +158,23 @@ a {
   .footer-container .footer-left {
     color: rgba(102, 102, 102, 0.7); }
     .footer-container .footer-left > li {
+      position: relative;
       color: rgba(102, 102, 102, 0.7);
       list-style: none; }
       .footer-container .footer-left > li:hover {
         color: rgba(255, 255, 102, 0.7);
         cursor: pointer; }
+      .footer-container .footer-left > li a > .fa {
+        color: rgba(255, 255, 102, 0.7);
+        opacity: 0;
+        position: absolute;
+        top: 15%;
+        right: 8%;
+        transition-property: right, opacity;
+        transition-duration: 0.5s, 0.5s; }
+      .footer-container .footer-left > li a:hover > .fa {
+        right: 5%;
+        opacity: 1; }
     .footer-container .footer-left .table-contents {
       margin-bottom: 0;
       margin-top: 0;
