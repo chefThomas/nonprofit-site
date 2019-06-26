@@ -7,11 +7,19 @@
     background-color: #d1d3d4;
     font-size: 1rem;
     text-transform: uppercase;
-    height: 2rem;
+    height: 3rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border-bottom: 4px solid $charcoal-alpha;
+
+    .fa-arrow-alt-circle-left,
+    .fa-arrow-alt-circle-right {
+      font-size: 1.5rem;
+      &:hover {
+        color: $white-alpha;
+      }
+    }
   }
 
   .heading {

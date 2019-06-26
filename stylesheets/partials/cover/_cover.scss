@@ -38,7 +38,22 @@
 
   &:hover {
     color: yellow;
-    font-size: 3.75vw;
+    font-size: 4.25vw;
+  }
+
+  .fa-arrow-right {
+    position: absolute;
+    opacity: 0;
+    top: 24%;
+    right: 12%;
+    transition-property: right, opacity;
+    transition-duration: 0.5s, 0.5s;
+    font-size: 4.5vw;
+  }
+
+  &:hover .fa-arrow-right {
+    opacity: 0.8;
+    right: 9%;
   }
 
   .inner-text {
