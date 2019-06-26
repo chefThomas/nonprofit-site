@@ -24,7 +24,7 @@
   .footer-left {
     color: $charcoal-alpha;
     & > li {
-      position: relative;
+      // position: relative;
       color: $charcoal-alpha;
       list-style: none;
       &:hover {
@@ -32,19 +32,23 @@
         cursor: pointer;
       }
 
+      & a {
+        position: relative;
+      }
+
       & a > .fa {
         color: $yellow-alpha;
         opacity: 0;
         position: absolute;
         top: 15%;
-        right: 8%;
+        right: -5%;
         transition-property: right, opacity;
         transition-duration: 0.5s, 0.5s;
       }
 
       & a:hover > .fa {
-        right: 5%;
-        opacity: 1;
+        right: -12%;
+        opacity: 0.9;
       }
     }
 
