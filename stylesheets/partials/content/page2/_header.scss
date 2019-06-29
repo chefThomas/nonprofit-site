@@ -1,4 +1,20 @@
-.header {
+header {
+  .image-container {
+    border: 1px solid $charcoal-alpha;
+    .fa-image {
+      position: fixed;
+      color: $charcoal-alpha;
+      font-size: 3rem;
+      top: 10%;
+      right: 2%;
+      background: white;
+      transition: opacity 0.4s;
+      &:hover {
+        color: $turquoise-alpha;
+      }
+    }
+  }
+
   margin-bottom: 1rem;
   // display: flex;
   .top-span {
@@ -16,6 +32,7 @@
     .fa-arrow-alt-circle-left,
     .fa-arrow-alt-circle-right {
       font-size: 1.5rem;
+      transition: color 0.3s;
       &:hover {
         color: $white-alpha;
       }
