@@ -266,16 +266,17 @@ header {
   margin-bottom: 1rem; }
   header .image-container {
     border: 1px solid rgba(102, 102, 102, 0.7); }
-    header .image-container .fa-image {
+    header .image-container .cam {
       position: fixed;
       color: rgba(102, 102, 102, 0.7);
+      width: 3rem;
       font-size: 3rem;
-      top: 10%;
+      top: 15%;
       right: 2%;
-      background: white;
       transition: opacity 0.4s; }
-      header .image-container .fa-image:hover {
-        color: rgba(63, 224, 208, 0.7); }
+      header .image-container .cam:hover {
+        color: rgba(63, 224, 208, 0.7);
+        cursor: pointer; }
   header .top-span {
     font-family: "Raleway", sans-serif;
     color: rgba(102, 102, 102, 0.7);
@@ -321,10 +322,9 @@ footer {
   border-top: 3px solid rgba(102, 102, 102, 0.7); }
 
 #carousel {
-  position: relative;
-  height: 400px;
-  top: 50%;
-  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  height: 300px;
   overflow: hidden; }
   #carousel div {
     position: absolute;

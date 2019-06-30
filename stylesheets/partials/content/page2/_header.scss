@@ -1,16 +1,17 @@
 header {
   .image-container {
     border: 1px solid $charcoal-alpha;
-    .fa-image {
+    .cam {
       position: fixed;
       color: $charcoal-alpha;
+      width: 3rem;
       font-size: 3rem;
-      top: 10%;
+      top: 15%;
       right: 2%;
-      background: white;
       transition: opacity 0.4s;
       &:hover {
         color: $turquoise-alpha;
+        cursor: pointer;
       }
     }
   }

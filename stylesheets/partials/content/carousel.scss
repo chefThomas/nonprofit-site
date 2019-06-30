@@ -1,9 +1,12 @@
 // TODO style carousel buttons and add caption text
+
 #carousel {
-  position: relative;
-  height: 400px;
-  top: 50%;
-  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  // position: relative;
+  height: 300px;
+  // top: 50%;
+  // transform: translateY(-50%);
   overflow: hidden;
 
   div {
@@ -85,12 +88,7 @@
     }
   }
 }
-
 .buttons {
   display: flex;
   justify-content: space-around;
-  // position: fixed;
-  // left: 50%;
-  // transform: translateX(-50%);
-  // bottom: 10px;
 }
