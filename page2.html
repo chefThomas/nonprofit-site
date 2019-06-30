@@ -8,12 +8,67 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>page2</title>
   </head>
-
   <body class="page2-body">
     <main class="page2-main">
       <article>
         <section class="header" name="header">
           <header role="banner">
+            <div class="image-container">
+              <img
+                class="cam"
+                src="./static/camera.svg"
+                alt=""
+                onclick="openNav()"
+              />
+              <!-- <i class="far fa-image" onclick="openNav()"></i> -->
+            </div>
+
+            <!-- CAROUSEL OVERLAY -->
+            <div id="myNav" class="overlay">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                >&times;</a
+              >
+              <div class="overlay-content">
+                <!-- CAROUSEL -->
+                <div id="carousel">
+                  <!-- <div class="hideLeft">
+                    <img src="./static/foodbank.jpg" />
+                  </div> -->
+
+                  <div class="prevLeftSecond">
+                    <img src="./static/foodbank2.jpg" />
+                  </div>
+
+                  <div class="prev">
+                    <img src="./static/foodbank3.jpg" />
+                  </div>
+
+                  <div class="selected">
+                    <img src="./static/foodbank4.jpg" alt="fresh produce" />
+                  </div>
+                  <div class="next">
+                    <img
+                      src="./static/foodbank5.jpg"
+                      alt="volunteers packing food"
+                    />
+                  </div>
+                  <div class="nextRightSecond">
+                    <img src="./static/foodbank6.jpg" />
+                  </div>
+                  <!-- <div class="hideRight">
+                    <img src="./static/foodbank7.png" />
+                  </div> -->
+                </div>
+                <div class="buttons">
+                  <i id="prev" class="fas fa-angle-left"></i>
+                  <i id="next" class="fas fa-angle-right"></i>
+                </div>
+
+                <!-- CAROUSEL -->
+              </div>
+            </div>
+            <!-- end overlay -->
+
             <div class="top-span">
               <a href="./index.html"
                 ><i class="far fa-arrow-alt-circle-left"></i
@@ -106,5 +161,25 @@
         </section>
       </article>
     </main>
+    <script>
+      window.addEventListener("scroll", function(e) {
+        console.log(window.scrollY);
+      });
+      // const imageIcon = document.querySelector(".fa-image");
+      // console.log(imageIcon);
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts/carousel.js"></script>
   </body>
 </html>
