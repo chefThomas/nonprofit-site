@@ -13,17 +13,12 @@
       <article>
         <section class="header" name="header">
           <header role="banner">
-            <div class="image-container">
-              <img
-                class="cam"
-                src="./static/camera.svg"
-                alt=""
-                onclick="openNav()"
-              />
-              <!-- <i class="far fa-image" onclick="openNav()"></i> -->
-            </div>
-
-            <!-- CAROUSEL OVERLAY -->
+            <img
+              class="cam"
+              src="./static/camera.svg"
+              alt="camera icon"
+              onclick="openNav()"
+            />
             <div id="myNav" class="overlay">
               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
                 >&times;</a
@@ -162,7 +157,7 @@
       </article>
     </main>
     <script>
-      window.addEventListener("scroll", function(e) {
+      window.addEventListener("scroll", function (e) {
         console.log(window.scrollY);
       });
       // const imageIcon = document.querySelector(".fa-image");
