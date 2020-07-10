@@ -326,7 +326,7 @@ header {
 }
 
 .cam:hover {
-  color: ;
+  cursor: pointer;
 }
 
 header .top-span {
